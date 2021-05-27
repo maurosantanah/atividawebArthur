@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', serif;
+    text-align: justify;
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#principal, #second, #contato {
+    width: 1200px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: rgb(255, 250, 250);
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    list-style-type: none;
+    align-content: center;
+}
+
+header nav {  /* orientacao do menu*/
+    display: flex;
+    flex: 1 0 0%;
+    justify-content: flex;
+}
+
+#logo {
+    display: flex;
+    max-width: 100px;
+}
+
+.link-menu { /* tamanho e cor do menu */
+    margin: 9px;
+    color: rgb(245, 243, 247);
+    padding: 5px 8px;
+    border: 0px solid;
+    background: #3f4046;
+   
+}
+
+main {
+    background: #3f4642;/* cor de fundo texto principal*/
+}
+
+.link-menu:hover {
+    color: #101010;
+    background-color: white;
+    border-bottom: 1px solid #101010;
+}
+
+.f {
+    background: #0c041b;
+}
+
+.l {
+    background: #002957;
+}
+
+#principal {/* caixa do texto principal*/
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#principal img, #capa { /* tamanho de imagem txt principal*/
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#sec_ctd p { /* formatacao texto caixa principal*/
+    color: rgb(247, 241, 241);
+    width: auto;
+    font-size: 15px;
+}
+
+#sec_ctd h1 { /* formatacao titulo txt principal*/
+    font-family: "Agency FB", serif;
+    color: white;
+    justify-content: flex;
+    display: flex;
+    font-size: 35px;
+}
+
+#second { /* caixa de opcoes fotos pagina principal*/
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 50px;
+    align-items: center
+}
+
+.capa { /*configuracao entre imagens*/
+    position: relative;
+    top: 0;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.capa:hover { /* acao da imagem ao passar o mouse*/
+    top: 8px;
+    box-shadow: 0 8px 8px #999;
+    transition: all .25s ease-in-out ;
+}
+
+#second .f, #second .l {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* RODAPÉ */
+
+footer {
+    display: flex;
+    background: #545769;
+    padding: 5px;
+    bottom: 0;
+}
+
+#contato {
+    display: flex;
+    max-width: 100%;
+    margin: 0px auto;
+    align-items: center;
+}
+
+#email {
+    justify-content: space-between;
+    float: left;
+}
+
+#email a {
+    color: silver;
+}
+
+#social {
+    float: right;
+    margin-left: auto;
+}
+
+#social img {
+    height: 30px;
+    margin: 5px;
+}
+
+
+/* css pagina contato*/
+body{
+    margin: 0;
+    padding: 0;
+    }
+    
+    form{  /* caixa do formulario*/
+    font-size: 16px;
+    background: #CCC;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 0 10px 10px 10px;
+    
+    }
+    
+    h1{
+    color: #333
+    }
+    
+    input, textarea{ /* caixa de textos formulario*/
+    width: 474px;
+    padding: 10px;
+    }
+       
+    .enviar input { /* botao enviar*/
+    background-color: #069;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: #FFF;
+    cursor: pointer;
+    }
+
+    p,
+    label {
+    font: 1rem 'Fira Sans', sans-serif;
+    }
+
+    input {
+    margin: .4rem;
+    }
+    
+    .enviar input:hover{
+    background: #078;
+    }
+    
+    textarea {
+    width: 474px;
+    height: 120px;
+    line-height: 20px;
+    }
