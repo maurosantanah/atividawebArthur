@@ -46,19 +46,22 @@
         <p class="enviar">
             <input type="submit" name="enviar" value="Enviar">
         </p>
-        <h1>Receber Email</h1>
 
-        <form action="/action_page.php">
+        <div class="wrapper">
+          <h2>Deseja Receber email</h2>
+          <div class="form-group">
+            <input class="checkbox" name="checkbox1" id="radio1" type='checkbox' checked />
+            <label for="checkbox">Sim</label>
+          </div>
           
-          <label for="vehicle1"> Sim eu quero Receber</label><br>
-          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-          <label for="vehicle2"> Eu nao quero</label><br>
-          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-          
-        </form>
-
+          <div class="form-group">
+            <input class="checkbox" name="checkbox2" id="checkbox2" type='checkbox' />
+            <label for="checkbox2">Não</label>
+          </div>
+        </div>  
     </form>
-    <footer>
+        
+      <footer>
         <div id="contato">
           <div id="email">
             <a href="">contato@artista.com</a>
