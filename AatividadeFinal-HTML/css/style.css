@@ -309,7 +309,7 @@ body{
     }
       /* pagina sobre arthur*/
 
-    #arthur, #alisonzille{
+    #arthur, #alisonzille, #leonardohs{
         padding: 20px;
         display: flex;
         flex-direction: column;
@@ -319,7 +319,7 @@ body{
     }
 
 
-    #arthur img, #capa, #alison img { /* tamanho de imagem txt principal*/
+    #arthur img, #capa, #alison img, #leonardohs img { /* tamanho de imagem txt principal*/
         width: 250px;
         display: flex;
         flex-direction: row;
@@ -327,12 +327,12 @@ body{
         justify-content: center;
         border-radius: 20px;
     }
-    #sobreTex, #sobreTexAz {
+    #sobreTex, #sobreTexAz, #sobreTexLeo {
         color: rgb(247, 241, 241);
         width: auto;
         font-size: 15px;
     }
-    #sobreTex h1, #sobreTexAz h1 {
+    #sobreTex h1, #sobreTexAz h1, #sobreTexLeo h1 {
         font-family: "Agency FB", sans-serif;
         color: white;
         justify-content: center;
