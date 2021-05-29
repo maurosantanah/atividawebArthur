@@ -76,7 +76,7 @@ main {
     background: #002957;
 }
 
-#principal {/* caixa do texto principal*/
+#principal, #titulobsi {/* caixa do texto principal*/
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -146,8 +146,8 @@ footer {
     background: #545769;
     padding: 5px;
     bottom: 0;
-    position:absolute;
     width: 100%;
+    position: fixed;
 }
 
 #contato {
