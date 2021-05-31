@@ -147,7 +147,7 @@ footer {
     padding: 5px;
     bottom: 0;
     width: 100%;
-    position: fixed;
+    position: flex;
 }
 
 #contato {
@@ -176,6 +176,14 @@ footer {
     margin: 5px;
 }
 
+/* VIDEOS*/
+#videoaz, #videoarthur, #videoleo  {
+    text-align: center;
+    width: auto;
+    height: auto;
+    border: 9px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
 
 /* css pagina contato*/
 body{
@@ -331,6 +339,7 @@ body{
         color: rgb(247, 241, 241);
         width: auto;
         font-size: 15px;
+        text-align: justify;
     }
     #sobreTex h1, #sobreTexAz h1, #sobreTexLeo h1 {
         font-family: "Agency FB", sans-serif;
